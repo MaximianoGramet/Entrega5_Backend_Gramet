@@ -133,7 +133,7 @@ class ProductManager{
         }
     }
 
-    ConsultarProductos(){
+    getProducts(){
         console.log(this.Products);
         return this.Products;
     }

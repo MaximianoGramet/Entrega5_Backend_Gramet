@@ -29,13 +29,12 @@ Host.set("views", `${__dirname}/routes/views`);
 
 Host.use(express.static(`${__dirname}/public`))
 
-const ProManager = new ProductManager("../manager/Products.json")
+const ProManager = new ProductManager("./src/manager/Products.json")
 
 io.on("connection", (socket) => {
     console.log("Client connected");
 
     socket.on("product_send", async (data) => {
-        console.log(data);
         try {
             const product = new Product(data.title, data.description, Number(data.price), data.thumbnails, data.code, Number(data.stock))
             await ProManager.addProduct(product);
@@ -46,7 +45,7 @@ io.on("connection", (socket) => {
         } 
     });
 
-    socket.emit("products", ProManager.getProducts());
+    io.emit("products", ProManager.getProducts());
 });
 
 Host.use(express.json())

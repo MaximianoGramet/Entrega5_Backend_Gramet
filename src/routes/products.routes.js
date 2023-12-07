@@ -7,7 +7,7 @@ const ProManager = new ProductManager("./src/manager/Products.json")
 ROUTER.get("/",(req,res)=>{
     const {limit} = req.query
 
-    const products = ProManager.ConsultarProductos()
+    const products = ProManager.getProducts()
 
     if(limit){
         const OptionsLimit = products.slice(0,limit)

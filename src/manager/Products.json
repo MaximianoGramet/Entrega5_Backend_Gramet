@@ -117,5 +117,14 @@
 		"stock": 28,
 		"category": "Camas",
 		"description": "descripción Postman"
+	},
+	{
+		"id": 14,
+		"code": "TEST",
+		"title": "TEST",
+		"description": 1234,
+		"price": "EXAMPLE",
+		"status": true,
+		"thumbnail": 1234
 	}
 ]
