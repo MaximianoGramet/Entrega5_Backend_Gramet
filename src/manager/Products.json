@@ -3,7 +3,7 @@
 		"id": 1,
 		"code": "0001",
 		"title": "ejemplo",
-		"desc": "es un ejemplo",
+		"description ": "es un ejemplo",
 		"price": 5,
 		"thumbnail": "no hay thumbnail",
 		"stock": 15
@@ -12,7 +12,7 @@
 		"id": 2,
 		"code": "0002",
 		"title": "Producto Editado",
-		"desc": "Descripción Editada",
+		"description ": "Descripción Editada",
 		"price": 10,
 		"thumbnail": "thumbnail-editado",
 		"stock": 20
@@ -21,7 +21,7 @@
 		"id": 3,
 		"code": "0003",
 		"title": "producto1",
-		"desc": "descripción producto1",
+		"description ": "descripción producto1",
 		"price": 8,
 		"thumbnail": "thumbnail-producto1",
 		"stock": 12
@@ -30,7 +30,7 @@
 		"id": 4,
 		"code": "0004",
 		"title": "producto2",
-		"desc": "descripción producto2",
+		"description ": "descripción producto2",
 		"price": 15,
 		"thumbnail": "thumbnail-producto2",
 		"stock": 18
@@ -39,7 +39,7 @@
 		"id": 5,
 		"code": "0005",
 		"title": "producto3",
-		"desc": "descripción producto3",
+		"description ": "descripción producto3",
 		"price": 12,
 		"thumbnail": "thumbnail-producto3",
 		"stock": 25
@@ -48,7 +48,7 @@
 		"id": 6,
 		"code": "0006",
 		"title": "producto4",
-		"desc": "descripción producto4",
+		"description ": "descripción producto4",
 		"price": 7,
 		"thumbnail": "thumbnail-producto4",
 		"stock": 10
@@ -57,7 +57,7 @@
 		"id": 7,
 		"code": "0007",
 		"title": "producto5",
-		"desc": "descripción producto5",
+		"description ": "descripción producto5",
 		"price": 20,
 		"thumbnail": "thumbnail-producto5",
 		"stock": 30
@@ -66,7 +66,7 @@
 		"id": 8,
 		"code": "0008",
 		"title": "producto6",
-		"desc": "descripción producto6",
+		"description ": "descripción producto6",
 		"price": 18,
 		"thumbnail": "thumbnail-producto6",
 		"stock": 15
@@ -75,7 +75,7 @@
 		"id": 9,
 		"code": "0009",
 		"title": "producto7",
-		"desc": "descripción producto7",
+		"description ": "descripción producto7",
 		"price": 25,
 		"thumbnail": "thumbnail-producto7",
 		"stock": 22
@@ -84,7 +84,7 @@
 		"id": 10,
 		"code": "0010",
 		"title": "producto8",
-		"desc": "descripción producto8",
+		"description ": "descripción producto8",
 		"price": 14,
 		"thumbnail": "thumbnail-producto8",
 		"stock": 17
@@ -93,7 +93,7 @@
 		"id": 11,
 		"code": "0011",
 		"title": "producto8",
-		"desc": "descripción producto8",
+		"description ": "descripción producto8",
 		"price": 14,
 		"thumbnail": "thumbnail-producto8",
 		"stock": 17
@@ -102,7 +102,6 @@
 		"id": 12,
 		"code": "0035",
 		"title": "EXITOS EN LA VIDA",
-		"desc": "descripción producto10",
 		"price": 15,
 		"thumbnail": "thumbnail-producto",
 		"stock": 13,
@@ -112,7 +111,6 @@
 		"id": 13,
 		"code": "0035",
 		"title": "productoEditadoPostman",
-		"desc": "descripción Postman",
 		"price": 15,
 		"status": true,
 		"thumbnail": "thumbnail-producto",

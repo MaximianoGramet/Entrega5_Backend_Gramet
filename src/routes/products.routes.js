@@ -39,11 +39,11 @@ ROUTER.delete("/:id",(req,res)=>{
 
 ROUTER.post("/", async (req,res)=>{
     try{
-        const { title, desc, code, price, stock, category,thumbnail } = req.body;
+        const { title, description, code, price, stock, category,thumbnail } = req.body;
         const status = true;
-        const product = new Product(code, title, desc, price,status,thumbnail, stock,category);
+        const product = new Product(code, title, description, price,status,thumbnail, stock,category);
         if (   title == null
-            || desc == null
+            || description == null
             || code == null
             || price == null
             || stock == null
@@ -60,8 +60,8 @@ ROUTER.post("/", async (req,res)=>{
 ROUTER.put("/:pid",async (req,res)=>{
     try{
         const {pid} = req.params
-        const {code, title, desc, price,status,thumbnail, stock,category} = req.body;
-        const product = new Product(code, title, desc, price,status,thumbnail, stock,category);
+        const {code, title, description, price,status,thumbnail, stock,category} = req.body;
+        const product = new Product(code, title, description, price,status,thumbnail, stock,category);
         await ProManager.editProduct(pid,product)
         return res.status(200).json({message:"Product updated successfully"})
     }catch(error){

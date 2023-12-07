@@ -96,7 +96,7 @@ class ProductManager{
 
             if (index !== -1) {
                 let titleP = updatedProduct.title ?? productToEdit.title;
-                let descriptionP = updatedProduct.desc ?? productToEdit.desc;
+                let descriptionP = updatedProduct.description  ?? productToEdit.description ;
                 let codeP = updatedProduct.code ?? productToEdit.code;
                 let priceP = isNaN(updatedProduct.price) ? productToEdit.price : Number(updatedProduct.price);
                 let stockP = updatedProduct && updatedProduct.stock != null ? updatedProduct.stock : productToEdit.stock;
@@ -140,11 +140,11 @@ class ProductManager{
 }
 
 class Product {
-    constructor(code,title,desc,price,status,thumbnail,stock,category){
+    constructor(code,title,description ,price,status,thumbnail,stock,category){
         this.id=null;
         this.code=code;
         this.title=title;
-        this.desc=desc;
+        this.description =description ;
         this.price=price;
         this.status=status;
         this.thumbnail=thumbnail;
