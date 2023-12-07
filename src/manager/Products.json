@@ -126,5 +126,23 @@
 		"price": "EXAMPLE",
 		"status": true,
 		"thumbnail": 1234
+	},
+	{
+		"id": 15,
+		"code": "",
+		"title": "",
+		"description": 0,
+		"price": "",
+		"status": true,
+		"thumbnail": 0
+	},
+	{
+		"id": 16,
+		"code": "ASDASDASD",
+		"title": "ASDASDASD",
+		"description": 1234124,
+		"price": "TEST",
+		"status": true,
+		"thumbnail": 123
 	}
 ]

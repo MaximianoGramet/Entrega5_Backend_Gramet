@@ -1,6 +1,5 @@
 const socket = io();
 const form = document.querySelector("form")
-const homeContainer = document.querySelector("#home");
 
 form.addEventListener("submit",(element)=>{
     element.preventDefault();
@@ -31,15 +30,4 @@ socket.on("products", (data) => {
     })
 })
 
-socket.on("products", (data) => {
-    homeContainer.innerHTML = "<h2>Products on Home</h2>";
-
-    data.forEach(product => {
-        homeContainer.innerHTML += `
-            <div>
-                Id: ${product.id} - Title: ${product.title} - Description: ${product.description} - Price: ${product.price} - Thumbnail: ${product.thumbnail} - Code: ${product.code} - Stock: ${product.stock}
-            </div>
-        `;
-    });
-});
 
